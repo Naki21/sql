@@ -1,0 +1,4 @@
+ALTER TABLE ingredients
+ADD COLUMN protein NUMERIC(3,1),
+ADD COLUMN fat NUMERIC(3,1),
+ADD COLUMN carbohydrates NUMERIC(3,1);
